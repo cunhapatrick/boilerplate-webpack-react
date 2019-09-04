@@ -1,0 +1,12 @@
+# modules
+node_modules
+
+# build directory
+dist
+
+# yarn configs
+yarn-error.log
+yarn.lock
+
+*.scss.flow
+*.sass.flow

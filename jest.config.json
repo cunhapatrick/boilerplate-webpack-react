@@ -1,0 +1,12 @@
+{
+  "roots": [
+    "<rootDir>/src"
+  ],
+  "transformIgnorePatterns": ["node_modules"],
+  "setupFilesAfterEnv": ["<rootDir>/src/config/setupEnzyme.js"],
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+  "moduleNameMapper": {
+      "^.+\\.(css|less|scss|sass)$": "babel-jest",
+      "^.+\\.(jpg|png|gif|svg)$": "identity-obj-proxy"
+    }
+}

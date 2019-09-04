@@ -1,0 +1,24 @@
+[ignore]
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+; Extensions
+module.file_ext=.js
+module.file_ext=.jsx
+module.file_ext=.json
+module.file_ext=.css
+module.file_ext=.scss
+module.file_ext=.sass
+module.name_mapper='^styles' -> '<PROJECT_ROOT>/src/styles'
+module.name_mapper='^services' -> '<PROJECT_ROOT>/src/services'
+module.name_mapper='^components' -> '<PROJECT_ROOT>/src/components'
+module.name_mapper='^pages' -> '<PROJECT_ROOT>/src/pages'
+module.name_mapper='^config' -> '<PROJECT_ROOT>/src/config'
+module.name_mapper='^stores' -> '<PROJECT_ROOT>/src/stores'
+
+[strict]
